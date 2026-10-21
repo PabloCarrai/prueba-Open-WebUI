@@ -13,7 +13,7 @@ else
     if [ -d $CARPETA ]; then
         #   Si la carpeta existe verifiamos los permisos
         echo "La carpeta existe."
-        echo "No hacemos nada.
+        echo "No hacemos nada."
         if [ "$PERMISOS" = "777" ]; then
             echo "Tenemos los permisos necesarios"
         else
